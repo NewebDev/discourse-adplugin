@@ -1,6 +1,7 @@
 # Neweb Advertising Plugin
 
 **Authors**:        [Julien Loisel](mailto:jloisel@neweb.com)  
+**Organization**:  Neweb Developpement  
 **Version**:        1.0.0   
 **Contributors**:   See credits section below   
 **License**:        MIT License   
@@ -63,7 +64,7 @@ In this section, we go into more detail on:
 The following are available locations along with a description and an image showing their location within Discourse to display ads for all platforms.
 
 Location Name | Description
---- | --- | ---
+--- | ---
 Topic List Top | Ad will appear at the header of Discourse homepage 
 Topic Above Post Stream | Ad will appear in the header of all Discourse forum topics 
 Topic Above Suggested | Ad will appear in the footer above suggested topics of all Discourse forum topics 
@@ -104,6 +105,10 @@ If you already have a live Discourse forum up, please go to the Quick Start head
 * In production, recompile your assets: `bundle exec rake assets:precompile`
 * Restart Discourse
  
+ 
+## Credits
+
+This plugin is based on the **[Official Discourse Advertising Plugin](https://github.com/discourse/discourse-adplugin)**
 
 
 
