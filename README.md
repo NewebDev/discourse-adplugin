@@ -3,7 +3,7 @@
 **Authors**:        [Julien Loisel](mailto:jloisel@neweb.com)  
 **Version**:        1.0.0   
 **Contributors**:   See credits section below   
-**License**:        MIT License 
+**License**:        MIT License   
 **Supported Discourse Version**: 1.8    
 **Supported Ad Platforms**: 
 * [Smart Adserver](http://smartadserver.com)
