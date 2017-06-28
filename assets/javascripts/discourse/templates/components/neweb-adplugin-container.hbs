@@ -1,0 +1,13 @@
+{{#if site.mobileView}}
+  {{#if model.postSpecificCountSmartad}}
+    {{#if siteSettings.smart_ad_server_mobile_post_bottom_code}}
+      {{smart-adserver placement="post-bottom" postNumber=model.post_number}}
+    {{/if}}
+  {{/if}}
+{{else}}
+  {{#if model.postSpecificCountSmartad}}
+    {{#if siteSettings.smart_ad_server_post_bottom_code}}
+      {{smart-adserver placement="post-bottom" postNumber=model.post_number}}
+    {{/if}}
+  {{/if}}
+{{/if}}

@@ -1,0 +1,9 @@
+{{#if site.mobileView}}
+  {{#if siteSettings.smart_ad_server_mobile_topic_above_post_stream_code}}
+    {{smart-adserver placement="topic-above-post-stream"}}
+  {{/if}}
+{{else}}
+  {{#if siteSettings.smart_ad_server_topic_above_post_stream_code}}
+    {{smart-adserver placement="topic-above-post-stream"}}
+  {{/if}}
+{{/if}}

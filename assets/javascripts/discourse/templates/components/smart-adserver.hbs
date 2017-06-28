@@ -1,0 +1,13 @@
+{{#if showAd}}
+  {{#if site.mobileView}}
+    <div class="smartad-server-content">
+        <!-- PUB MOBILE sas_{{ad_mobile_code}} -->
+        <div id="sas_{{ad_mobile_code}}"></div>
+    </div>
+  {{else}}
+    <div class="smartad-server-content">
+        <!-- PUB sas_{{ad_code}} -->
+        <div id="sas_{{ad_code}}"></div>
+    </div>
+  {{/if}}
+{{/if}}
